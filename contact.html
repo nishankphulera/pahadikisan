@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <style>
+        .contactbox {
+            height: 70px;
+            width: 100%;
+            background-color: white;
+            color: black;
+
+        }
+        .contactformbox {
+            margin-left: 450px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            height: 330px;
+            width: 30%;
+            background-color: black;
+            color:  white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <div class="logo">
+        <img src="./image/LOGO.jpg" width="250px" height="200px" alt="">
+    <br>
+    <br>
+        <h2 class="center">Contact Us</h2>
+        <br>
+    </div>
+    <br>
+    <br>
+    <div class="contactbox">
+    <h3>CONTACT US TO PLACE ORDER</h3>
+    <h4>FILL THE FORM SO THAT WE CAN REACH YOU</h4>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="contactformbox">
+    <form action="submitter.php" id="" method="post" enctype="text/plain"></form>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="NAME">
+        <br>
+        <br>
+        <label for="email">Email</label>
+        <input type="text" name="gmail" id="email" placeholder="GMAIL ID">
+        <br>
+        <br>
+        <label for="phoneno">Contact</label>
+        <input type="text" name="phone" id="phoneno" placeholder="PHONE NUMBER">
+        <br>
+        <h3>TELL US ABOUT YOUR ORDER </h3>
+        <textarea name="description" id="" cols="40" rows="10" placeholder="Enter description"></textarea>
+        <br>
+        <br>
+        <br>
+        <input type="submit" name="submit" value="send"> 
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <a href="index.html">Back to homepage</a>
+        <br>
+        <br>
+    </form>
+    </header>
+</body>
+</html>

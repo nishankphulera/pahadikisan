@@ -1,0 +1,84 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(46, 46, 77);
+}
+
+div.logo {
+  height: auto;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 10px;
+}
+h2 {
+  text-align: center;
+  font-family: italic;
+  color: white;
+  padding: 10px;
+}
+nav {
+  background-color: rgb(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 10px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+a {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.sec {
+  text-align: right;
+  margin-left: 40px;
+}
+section {
+  color: white;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.center {
+  color: rgb(46, 46, 77, 0.8);
+  text-align: center;
+  font-family: Helvetica;
+}
+
+.id {
+  text-align: left;
+  background-color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.head,
+.add {
+  display: inline;
+  margin-left: 10px;
+}
+footer {
+  display: inline;
+}
+.frontpic {
+  height: 450px;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+}
+.white {
+  color: white;
+  text-align: center;
+}
+.box {
+  background-color: white;
+  color: black;
+  height: auto;
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 10px;
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.black {
+  color: black;
+  text-align: center;
+}
